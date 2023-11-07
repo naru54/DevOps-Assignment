@@ -1,0 +1,53 @@
+/* Basic styling for the Task Manager app */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.task {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  background-color: #f9f9f9;
+}
+
+.task h2 {
+  font-size: 1.2em;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.show-task,
+.edit-task,
+.delete-task,
+.new-task-button {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #007BFF;
+  border: 1px solid #007BFF;
+  border-radius: 3px;
+}
+
+.show-task:hover,
+.edit-task:hover,
+.delete-task:hover,
+.new-task-button:hover {
+  background-color: #0056b3;
+  border: 1px solid #0056b3;
+}
+
